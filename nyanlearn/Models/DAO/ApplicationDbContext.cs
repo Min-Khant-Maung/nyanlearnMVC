@@ -16,10 +16,7 @@ namespace nyanlearn.Models.DAO
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Course> Courses { get; set; }
         
-        
-        
         public DbSet<TeacherCourses> TeacherCourses { get; set; }
-        public DbSet<ContactAnyQuery> ContactAnyQueries { get; set; }
-        public DbSet<NewStudentRegister> NewStudentRegisters { get; set; }
+        
     }
 }
