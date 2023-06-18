@@ -18,6 +18,6 @@ namespace nyanlearn.Models
         public Boolean IsPromotion { get; set; }
         public float Percentance { get; set; }
         public int Fixed { get; set; }
-        public virtual IList<Batch> Batches { get; set; }
+        
     }
 }
