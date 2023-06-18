@@ -7717,11 +7717,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Min Khant Maung\\source\\repos\\nyanlearn\\nyanlearn\\nyanlearn.csproj",
+      "projectUniqueName": "C:\\Users\\Min Khant Maung\\source\\repos\\nyanlearnMVC\\nyanlearn\\nyanlearn.csproj",
       "projectName": "nyanlearn",
-      "projectPath": "C:\\Users\\Min Khant Maung\\source\\repos\\nyanlearn\\nyanlearn\\nyanlearn.csproj",
+      "projectPath": "C:\\Users\\Min Khant Maung\\source\\repos\\nyanlearnMVC\\nyanlearn\\nyanlearn.csproj",
       "packagesPath": "C:\\Users\\Min Khant Maung\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Min Khant Maung\\source\\repos\\nyanlearn\\nyanlearn\\obj\\",
+      "outputPath": "C:\\Users\\Min Khant Maung\\source\\repos\\nyanlearnMVC\\nyanlearn\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Min Khant Maung\\AppData\\Roaming\\NuGet\\NuGet.Config",
