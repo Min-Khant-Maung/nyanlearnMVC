@@ -1,14 +1,25 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 
-namespace nyanlearn.Controllers
+namespace testLayout.Controllers
 {
     public class PublicController : Controller
     {
+        // GET: /<controller>/
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Courses()
         {
             return View();
         }

@@ -355,3 +355,12 @@ C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\obj\Debug\net5.0\ny
 C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\obj\Debug\net5.0\Razor\Views\Public\Index.cshtml.g.cs
 C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\obj\Debug\net5.0\Razor\Views\Shared\_PublicLayout.cshtml.g.cs
 C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\bin\Debug\net5.0\libman.json
+C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\obj\Debug\net5.0\Razor\Views\Public\About.cshtml.g.cs
+C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\obj\Debug\net5.0\Razor\Views\Public\_ViewStart.cshtml.g.cs
+C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\obj\Debug\net5.0\Razor\Views\Admin\_ViewStart.cshtml.g.cs
+C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\obj\Debug\net5.0\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\obj\Debug\net5.0\Razor\Views\Admin\StudentList.cshtml.g.cs
+C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\obj\Debug\net5.0\Razor\Views\Admin\StudentRegForm.cshtml.g.cs
+C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\obj\Debug\net5.0\Razor\Views\Admin\TeacherList.cshtml.g.cs
+C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\obj\Debug\net5.0\Razor\Views\Admin\TeacherRegForm.cshtml.g.cs
