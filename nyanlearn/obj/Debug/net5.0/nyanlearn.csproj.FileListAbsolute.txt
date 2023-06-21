@@ -183,7 +183,6 @@ C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\bin\Debug\net5.0\ny
 C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\bin\Debug\net5.0\nyanlearn.runtimeconfig.json
 C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\bin\Debug\net5.0\nyanlearn.runtimeconfig.dev.json
 C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\bin\Debug\net5.0\nyanlearn.dll
-C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\bin\Debug\net5.0\ref\nyanlearn.dll
 C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\bin\Debug\net5.0\nyanlearn.pdb
 C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\bin\Debug\net5.0\nyanlearn.Views.dll
 C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\bin\Debug\net5.0\nyanlearn.Views.pdb
@@ -364,3 +363,4 @@ C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\obj\Debug\net5.0\Ra
 C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\obj\Debug\net5.0\Razor\Views\Admin\StudentRegForm.cshtml.g.cs
 C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\obj\Debug\net5.0\Razor\Views\Admin\TeacherList.cshtml.g.cs
 C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\obj\Debug\net5.0\Razor\Views\Admin\TeacherRegForm.cshtml.g.cs
+C:\Users\Min Khant Maung\source\repos\nyanlearnMVC\nyanlearn\bin\Debug\net5.0\ref\nyanlearn.dll

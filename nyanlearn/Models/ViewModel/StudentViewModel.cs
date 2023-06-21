@@ -8,8 +8,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace nyanlearn.Models
 {
-    [Table("Student")]
-    public class Student:BaseEntity
+    public class StudentViewModel:BaseEntity
     {
         public string Code { get; set; }
         public string Name { get; set; }
@@ -23,7 +22,6 @@ namespace nyanlearn.Models
 
 
         public string UserId { get; set; }
-        [ForeignKey("UserId")]
         public virtual IdentityUser User { get; set; }
     }
 }

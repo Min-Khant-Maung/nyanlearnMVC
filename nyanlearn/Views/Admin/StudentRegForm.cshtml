@@ -1,3 +1,62 @@
+
 <div class="content-wrapper">
-    
+
+
+    @*<link href="~/css/StudentRegForm.css" rel="stylesheet" />*@
+<div class="studentForm">
+    <h1>Student Registration Form</h1>
+    <form action="/Admin/AddStudent/" method="POST">
+        <div class="mb-3 student-inputs">
+            <label class="form-label">Code</label>
+            <input type="text" class="form-control" name="Code" placeholder="Student Code" required>
+        </div>
+        <div class="mb-3 student-inputs">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" name="Name" placeholder="Student Name" required>
+        </div>
+
+        <div class="mb-3 student-inputs">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" name="Email" placeholder="Student Email">
+        </div>
+
+        <div class="mb-3 student-inputs">
+            <label class="form-label">Password</label>
+            <input type="password" class="form-control" name="Password" placeholder="Student Password">
+        </div>
+
+
+        <div class="mb-3 student-inputs">
+            <label class="form-label">Date of Birth</label>
+            <input type="date" class="form-control" name="DOB" placeholder="Student Date of Birth" required>
+        </div>
+
+        <div class="mb-3 student-inputs">
+            <label class="form-label">National Registration Card</label>
+            <input type="text" class="form-control" name="NRC" placeholder="Student National Registration Card" required>
+        </div>
+        <div class="mb-3 student-inputs">
+            <label class="form-label">Phone</label>
+            <input type="text" class="form-control" name="Phone" placeholder="Student Phone" required>
+        </div>
+        <div class="mb-3 student-inputs">
+            <label class="form-label">Father Name</label>
+            <input type="text" class="form-control" name="FatherName" placeholder="Father Name" required>
+        </div>
+        <div class="mb-3 student-inputs">
+            <label class="form-label">Address</label>
+            <textarea name="Address" class="form-control"></textarea>
+        </div>
+        <div class="mb-3 student-inputs">
+            <div class="row">
+                <div class="col">
+                    <input type="submit" class="btn btn-success" value="Entry" />
+                </div>
+                <div class="col">
+                    <input type="reset" class="btn btn-secondary" value="Cancel" />
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
 </div>
