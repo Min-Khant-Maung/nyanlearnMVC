@@ -26,9 +26,23 @@ namespace nyanlearn.Controllers
         }
 
 
-                public IActionResult ListStudents()
+        public IActionResult ListStudents()
         {
-            return View("~/Views/Admin/StudentList.cshtml");
+            IList<StudentViewModel> stus = _applicationDbContext.Students.Select
+                (s => new StudentViewModel
+                {
+                    Code = s.Code,
+                    Name = s.Name,
+                    DOB = s.DOB,
+                    Email = s.Email,
+                    NRC = s.NRC,
+                    Address = s.Address,
+                    Phone = s.Phone,
+                    FatherName = s.FatherName
+                }).ToList();
+
+
+            return View("~/Views/Admin/StudentList.cshtml",stus);
         }
 
         public IActionResult AddStudent()
@@ -74,7 +88,22 @@ namespace nyanlearn.Controllers
 
         public IActionResult ListTeachers()
         {
-            return View("~/Views/Admin/TeacherList.cshtml");
+            IList<TeacherViewModel> teachers = _applicationDbContext.Teachers.Select
+                (t => new TeacherViewModel
+                {
+                    Name = t.Name,
+                    Email = t.Email,
+                    FatherName = t.FatherName,
+                    Position = t.Position,
+                    DOB = t.DOB,
+                    NRC = t.NRC,
+                    Address = t.Address,
+                    Phone = t.Phone
+                }).ToList();
+
+
+
+            return View("~/Views/Admin/TeacherList.cshtml",teachers);
         }
 
 

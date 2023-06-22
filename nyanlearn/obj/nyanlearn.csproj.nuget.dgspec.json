@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nyilynnhtwe/Desktop/nyanlearnMVC/nyanlearn/nyanlearn.csproj": {}
+    "C:\\Users\\Min Khant Maung\\source\\repos\\nyanlearnMVC\\nyanlearn\\nyanlearn.csproj": {}
   },
   "projects": {
-    "/Users/nyilynnhtwe/Desktop/nyanlearnMVC/nyanlearn/nyanlearn.csproj": {
+    "C:\\Users\\Min Khant Maung\\source\\repos\\nyanlearnMVC\\nyanlearn\\nyanlearn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nyilynnhtwe/Desktop/nyanlearnMVC/nyanlearn/nyanlearn.csproj",
+        "projectUniqueName": "C:\\Users\\Min Khant Maung\\source\\repos\\nyanlearnMVC\\nyanlearn\\nyanlearn.csproj",
         "projectName": "nyanlearn",
-        "projectPath": "/Users/nyilynnhtwe/Desktop/nyanlearnMVC/nyanlearn/nyanlearn.csproj",
-        "packagesPath": "/Users/nyilynnhtwe/.nuget/packages/",
-        "outputPath": "/Users/nyilynnhtwe/Desktop/nyanlearnMVC/nyanlearn/obj/",
+        "projectPath": "C:\\Users\\Min Khant Maung\\source\\repos\\nyanlearnMVC\\nyanlearn\\nyanlearn.csproj",
+        "packagesPath": "C:\\Users\\Min Khant Maung\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Min Khant Maung\\source\\repos\\nyanlearnMVC\\nyanlearn\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/nyilynnhtwe/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Min Khant Maung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -94,17 +95,10 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[5.0.17, 5.0.17]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -113,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }

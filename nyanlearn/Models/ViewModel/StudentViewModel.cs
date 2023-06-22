@@ -13,7 +13,7 @@ namespace nyanlearn.Models
         public string Code { get; set; }
         public string Name { get; set; }
         public string Password { get; set; }
-        public string Possition { get; set; }
+        public string Position { get; set; }
         public DateTime DOB { get; set; }
         public  string Email { get; set; }
         public string NRC { get; set; }

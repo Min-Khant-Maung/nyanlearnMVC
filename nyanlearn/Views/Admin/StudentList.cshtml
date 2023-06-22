@@ -1,32 +1,51 @@
 <div class="content-wrapper">
+
+    @model IList<StudentViewModel>
+
+        <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+        <link href="~/lib/datatables/css/dataTables.bootstrap4.css" rel="stylesheet" />
+        <script src="~/lib/jquery/jquery.js"></script>
+    <h1>Student Information list</h1>
     <table class="table">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>twitter</td>
-    </tr>
-  </tbody>
-</table>
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Name</th>
+                <th>DOB</th>
+                <th>Email</th>
+                <th>NRC</th>
+                <th>Address</th>
+                <th>Phone</th>
+                <th>FatherName</th>
+
+                <th>Action</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var s in Model)
+            {
+            <tr>
+                <td>@s.Code</td>
+                <td>@s.Name</td>
+                <td>@s.DOB.ToString("yyyy-MM--dd")</td>
+                <td>@s.Email</td>
+                <td>@s.NRC</td>
+                <td>@s.Address</td>
+                <td>@s.Phone</td>
+                <td>@s.FatherName</td>
+
+
+
+                <td><a href="/Admin/Edit?Id=@s.Id" class="btn btn-success" role="button">Edit</a></td>
+                <td><a href="/Admin/Delete?Id=@s.Id" onclick="return confirm('Are you sure to delete this record?')" class="btn btn-danger" role="button">Delete</a></td>
+            </tr>
+            }
+        </tbody>
+    </table>
+
+    @section Scripts{
+        <script src="~/lib/datatables/js/jquery.dataTables.js"></script>
+    }
+
 </div>
