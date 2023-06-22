@@ -1,15 +1,50 @@
+        @*public string Code { get; set; }
+        public string Name { get; set; }
+        public string Password { get; set; }
+        public DateTime DOB { get; set; }
+        public  string Email { get; set; }
+        public string NRC { get; set; }
+        public string Address { get; set; }
+        public string Phone { get; set; }
+        public string FatherName { get; set; }*@
+
+
 <div class="content-wrapper">
     <div class="teacherForm">
         <h1>Teacher Registration Form</h1>
-        <form action="" method="">
+        <form action="/Admin/AddTeacher" method="POST">
+
+            <div class="mb-3 teacher-inputs">
+                <label class="form-label">Code</label>
+                <input type="text" class="form-control" name="Code" placeholder="Teacher Code" required>
+            </div>
+
+
             <div class="mb-3 teacher-inputs">
                 <label class="form-label">Name</label>
                 <input type="text" class="form-control" name="Name" placeholder="Teacher Name" required>
             </div>
+
             <div class="mb-3 teacher-inputs">
                 <label class="form-label">Email</label>
                 <input type="email" class="form-control" name="Email" placeholder="Teacher Email">
             </div>
+
+            <div class="mb-3 teacher-inputs">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control" name="Password" placeholder="Teacher Password">
+            </div>
+
+            <div class="mb-3 teacher-inputs">
+                <label class="form-label">DOB</label>
+                <input type="date" class="form-control" name="DOB" required>
+            </div>
+
+            <div class="mb-3 teacher-inputs">
+                <label class="form-label">Father Name</label>
+                <input type="text" class="form-control" name="FatherName" required>
+            </div>
+
             <div class="mb-3 teacher-inputs">
                 <label class="form-label">Position</label>
                 <select class="form-control" name="Position">
@@ -17,14 +52,18 @@
                     <option>Junior</option>
                 </select>
             </div>
+
             <div class="mb-3 teacher-inputs">
                 <label class="form-label">Address</label>
                 <textarea name="Address" class="form-control"></textarea>
             </div>
+
             <div class="mb-3 teacher-inputs">
                 <label class="form-label">Phone</label>
                 <input type="text" class="form-control" name="Phone" placeholder="Teacher Phone" required>
             </div>
+
+
             <div class="mb-3 teacher-inputs">
                 <div class="row">
                     <div class="col">

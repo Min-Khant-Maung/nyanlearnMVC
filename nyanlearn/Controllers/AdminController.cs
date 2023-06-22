@@ -83,5 +83,33 @@ namespace nyanlearn.Controllers
         {
             return View("~/Views/Admin/TeacherRegForm.cshtml");
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AddTeacher(TeacherViewModel teacherviewmodel)
+        {
+            var user = new IdentityUser { UserName = teacherviewmodel.Name, Email = teacherviewmodel.Email };
+            var result = await _usermanager.CreateAsync(user, teacherviewmodel.Password);
+            if(result.Succeeded)
+            {
+                await _usermanager.AddToRoleAsync(user, "teacher");
+            }
+            Teacher teacher = new Teacher();
+            //audit columns
+            teacher.Id = Guid.NewGuid().ToString();
+            teacher.CreatedDate = DateTime.Now;
+            teacher.Name = teacherviewmodel.Name;
+            teacher.Email = teacherviewmodel.Email;
+            teacher.Password = "";
+            teacher.Phone = teacherviewmodel.Phone;
+            teacher.Address = teacherviewmodel.Address;
+            teacher.NRC = teacherviewmodel.NRC;
+            teacher.DOB = teacherviewmodel.DOB;
+            teacher.FatherName = teacherviewmodel.FatherName;
+            teacher.UserId = user.Id;//for identity user
+            _applicationDbContext.Teachers.Add(teacher);//Adding the record Students DBSet
+            _applicationDbContext.SaveChanges();//saving the record to the database
+            return RedirectToAction("ListTeachers");
+        }
+        
     }
 }
